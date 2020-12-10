@@ -1,0 +1,81 @@
+.details-page-area {
+  padding: 50px 0;
+}
+.social-icons .fa {
+  padding-top: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.job-title {
+  color: #00b894;
+}
+.c_name {
+  color: #ff7675 !important;
+}
+.social-icons .fa:hover {
+    opacity: 0.7;
+}
+
+.social-icons .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.social-icons .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social-icons .fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+
+.social-icons .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.card {
+  margin-bottom: 30px !important;
+}
+.timer-area .btn-wrapper .boxed-btn {
+  width: 200px;
+  text-align: center;
+}
+.c-logo {
+  border: 1px solid #{{$gs->base_color_code}};
+}
+.pro-con {
+  position: relative;
+}
+.pro-con a {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .company-name {
+        max-width: 400px;
+    }
+
+    .timer-area .btn-wrapper {
+        position: absolute;
+        right: 40px;
+        top: -14px;
+    }
+
+    .timer-area p {
+        color: #7d7c8f;
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 550px;
+        margin-top: 13px;
+    }
+}

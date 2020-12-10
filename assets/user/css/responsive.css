@@ -1,0 +1,574 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-area ul li {
+        padding: 50px 15px;
+    }
+    .header-area .single-slide-item h1 span {
+        display:  block;
+        font-size: 50px;
+    }
+    .feature-area .our-feature-wrapper ul li .single-feature-item .content h4 {
+        font-size: 15px;
+    }
+    .suitable-business-area .left-content .section-title .bg-text {
+        position: absolute;
+        left: -60px;
+        top: -100px;
+        font-size: 160px;
+    }
+    .suitable-business-area .left-content .content {
+        padding-right: 50px;
+    }
+    .our-service-area .single-service-box .content h4 {
+        font-size: 25px;
+    }
+    .our-mission-area .left-conter .bg-text {
+        font-size: 160px;
+        left: -150px;
+    }
+    .counter-area .bg-text {
+        top: 30%;
+        font-size: 120px;
+    }
+    .minimal-video-area .bg-text{
+        font-size: 160px;
+    }
+    .news-feeds-area .single-news-box-item .content h4 {
+        font-size: 18px;
+    }
+    .subscribe-area .subscriber-wrapper h2 {
+        font-size: 45px;
+    }
+    .footer-area .copyright-area span {
+        color: #fff;
+        font-size: 18px;
+    }
+    .footer-area .footer-socials ul li {
+        margin: 0;
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #main-menu {
+        display: none;
+    }
+    .our-angels-area .single-team-member .image-box img {
+        width: 100%;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .responsive-menu {
+        position: relative;
+    }
+    .navbar-area .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        z-index: 9;
+    }
+
+    .navbar-area .slicknav_btn {
+        background: transparent;
+        text-shadow: none;
+        margin-bottom: 40px;
+    }
+
+    .navbar-area .slicknav_menu .slicknav_icon-bar {
+        background: #fff;
+        box-shadow: none;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-area .navbar-area .slicknav_menu.nav-fixed {
+        position: fixed;
+        z-index: 99;
+        top: 10px;
+    }
+
+    .navbar-area .navbar-area .slicknav_nav {
+        width: 100%;
+    }
+
+    .navbar-area .navbar-area ul.slicknav_nav {
+        background: #000;
+    }
+
+    .navbar-area .navbar-area li.slicknav_collapsed.slicknav_parent a i {
+        display: none;
+    }
+
+    .navbar-area .slicknav_nav .slicknav_row,
+    .navbar-area .slicknav_nav a {
+        margin: 0;
+        border-radius: 0;
+        text-transform: uppercase;
+    }
+
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+        color: #fff;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open {
+        transform: rotate(30deg);
+    }
+
+    .navbar-area .slicknav_btn .slicknav_icon-bar {
+        transition: .3s;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:first-child {
+        display: none;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+        transform: rotate(110deg);
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+        transform: rotate(9deg);
+        margin-top: -7px;
+    }
+
+    .navbar-area .slicknav_menu li a i {
+        display: none;
+    }
+
+    .navbar-area .slicknav_btn {
+        margin-bottom: 23px;
+    }
+
+    .navbar-area ul.slicknav_nav li a,
+    .navbar-area ul.slicknav_nav li ul li {
+        padding: 10px 20px;
+        color: #ED1C24;
+    }
+    .navbar-area ul.slicknav_nav li {
+        display: block;
+        width: 300px;
+        margin-right: 0;
+        padding-right: 0;
+        background: #F6F6F6;
+        z-index: 9;
+        border-bottom: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .navbar-area ul.slicknav_nav li:first-child {
+        margin-left: 0;
+    }
+
+    .navbar-area ul.slicknav_nav li.active,
+    .navbar-area ul.slicknav_nav li:hover {
+        background-color: #ED1C24;
+        color: #fff;
+    }
+
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+    }
+    .navbar-area li.slicknav_parent.slicknav_open ul {
+        position: initial;
+        visibility: visible;
+        display: block;
+        opacity: 1;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+    }
+    .navbar-area li.active.slicknav_parent.slicknav_open ul.sub-menu li,
+    .navbar-area li.slicknav_parent.slicknav_open ul.sub-menu li
+    {
+        padding: 0;
+        padding-left: 20px;
+    }
+    .navbar-area ul.slicknav_nav li.active a,
+    .navbar-area ul.slicknav_nav li:hover a {
+        color: #fff;
+    }
+    .navbar-area .logo {
+        padding: 15px;
+    }
+    .navbar-area ul.slicknav_nav li.active a:after,
+    .navbar-area ul.slicknav_nav li.active a:before,
+     .navbar-area ul.slicknav_nav li a:before,
+     .navbar-area ul.slicknav_nav li a:after
+     {
+        display: none;
+    }
+    .navbar-area .boxed-btn.blank {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .feature-area .our-feature-wrapper ul li {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .feature-area .our-feature-wrapper ul li:nth-child(2) {
+        border-right: 2px solid #f6f6f6;
+    }
+    .suitable-business-area .right-img {
+        margin-top: 60px;
+    }
+    .portfolio-area .portfolio-filter-menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .single-counter-box {
+        margin-bottom: 30px;
+    }
+
+    .counter-area .bg-text {
+        font-size: 140px;
+    }
+    .our-angels-area .single-team-member .image-box .member-details:after{
+        height: 23px;
+    }
+    .news-feeds-area .single-news-box-item .content h4 {
+        font-size: 21px;
+    }
+
+    .news-feeds-area .single-news-box-item {
+        margin-bottom: 30px;
+    }
+
+    .news-feeds-area {
+        padding-bottom: 90px;
+    }
+    .footer-area .footer-socials{
+        text-align: center;
+    }
+    .header-area .single-slide-item h1 {
+        font-size: 65px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    #main-menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+
+    .responsive-menu {
+        position: relative;
+    }
+
+    .navbar-area .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        right: 0;
+        top: 0px;
+        z-index: 9;
+    }
+
+    .navbar-area .slicknav_btn {
+        background: transparent;
+        text-shadow: none;
+        margin-bottom: 40px;
+    }
+
+    .navbar-area .slicknav_menu .slicknav_icon-bar {
+        background: #fff;
+        box-shadow: none;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-area .navbar-area .slicknav_menu.nav-fixed {
+        position: fixed;
+        z-index: 99;
+        top: 10px;
+    }
+
+    .navbar-area .navbar-area .slicknav_nav {
+        width: 100%;
+    }
+
+    .navbar-area .navbar-area ul.slicknav_nav {
+        background: #ED1C24;
+    }
+
+    .navbar-area .navbar-area li.slicknav_collapsed.slicknav_parent a i {
+        display: none;
+    }
+
+    .navbar-area .slicknav_nav .slicknav_row,
+    .navbar-area .slicknav_nav a {
+        margin: 0;
+        border-radius: 0;
+        text-transform: uppercase;
+        color: #ED1C24;
+    }
+
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+        color: #fff;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open {
+        transform: rotate(30deg);
+    }
+
+    .navbar-area .slicknav_btn .slicknav_icon-bar {
+        transition: .3s;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:first-child {
+        display: none;
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+        transform: rotate(110deg);
+    }
+
+    .navbar-area .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+        transform: rotate(9deg);
+        margin-top: -7px;
+    }
+
+    .navbar-area .slicknav_menu li a i {
+        display: none;
+    }
+
+    .navbar-area .slicknav_btn {
+        margin-bottom: 23px;
+    }
+
+    .navbar-area ul.slicknav_nav li a,
+    .navbar-area ul.slicknav_nav li ul li {
+        padding: 10px 20px;
+    }
+
+    .navbar-area ul.slicknav_nav li {
+        display: block;
+        width: 300px;
+        margin-right: 0;
+        padding-right: 0;
+        background: #F6F6F6;
+        z-index: 9;
+        border-bottom: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .navbar-area ul.slicknav_nav li:first-child {
+        margin-left: 0;
+    }
+
+    .navbar-area ul.slicknav_nav li.active,
+    .navbar-area ul.slicknav_nav li:hover {
+        background-color: #ED1C24;
+        color: #fff;
+    }
+
+    .navbar-area .slicknav_nav a:hover,
+    .navbar-area .navbar-area .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+    }
+
+    .navbar-area li.slicknav_parent.slicknav_open ul {
+        position: initial;
+        visibility: visible;
+        display: block;
+        opacity: 1;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .navbar-area li.active.slicknav_parent.slicknav_open ul.sub-menu li,
+    .navbar-area li.slicknav_parent.slicknav_open ul.sub-menu li {
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .navbar-area ul.slicknav_nav li.active a,
+    .navbar-area ul.slicknav_nav li:hover a {
+        color: #fff;
+    }
+
+    .navbar-area .logo {
+        padding: 15px;
+    }
+
+    .navbar-area ul.slicknav_nav li.active a:after,
+    .navbar-area ul.slicknav_nav li.active a:before,
+    .navbar-area ul.slicknav_nav li a:before,
+    .navbar-area ul.slicknav_nav li a:after {
+        display: none;
+    }
+    .navbar-area .boxed-btn.blank {
+        margin-left: -50px;
+        display: inline-block;
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-top: 18px;
+    }
+
+    .navbar-area .slicknav_menu {
+        top: 10px;
+    }
+    .back-to-top {display: none;}
+    .navbar-area .boxed-btn.blank {
+        margin-left: -50px;
+        display: inline-block;
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-top: 18px;
+    }
+
+    .navbar-area .slicknav_menu {
+        top: 10px;
+        left: -150px;
+    }
+
+    .header-area .single-slide-item h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .header-area .single-slide-item {
+        padding-bottom: 145px;
+    }
+    .header-area .single-slide-item h1 span {
+        font-size: 32px;
+    }
+
+    .header-area .single-slide-item .btn-wrapper .boxed-btn {
+        margin-bottom: 30px;
+    }
+
+    .feature-area .our-feature-wrapper ul li {
+        width: 100%;
+        border-right: 2px solid #f6f6f6;
+        margin-bottom: 30px;
+    }
+
+    .feature-area .our-feature-wrapper ul li:last-child {
+        border-right: none;
+    }
+
+    .feature-area {
+        padding-bottom: 90px;
+    }
+
+    .suitable-business-area .right-img {
+        margin-top: 50px;
+    }
+
+    .portfolio-area .portfolio-filter-menu ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .counter-area .single-counter-box {
+        margin-bottom: 30px;
+    }
+
+    .minimal-video-area .minimal-video-wrapper .content h3 {
+        font-size: 35px;
+    }
+
+    .single-news-box-item {
+        margin-bottom: 30px;
+    }
+
+    .counter-area {
+        padding-bottom: 75px;
+    }
+
+    .section-title h3 {
+        font-size: 45px;
+    }
+
+    .news-feeds-area {
+        padding-bottom: 90px;
+    }
+
+    .subscribe-area .subscriber-wrapper h2 {
+        font-size: 25px;
+    }
+
+    .subscribe-area .subscriber-wrapper .form-wrapper input[type=email] {
+        display: block;
+        padding-right: 25px;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-area .subscriber-wrapper .form-wrapper input[type=submit] {
+        position: initial;
+        display: block;
+        width: 100%;
+    }
+
+    .footer-area .copyright-area span {
+        font-size: 18px;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .footer-area .footer-socials ul li {
+        margin: 0 3px;
+    }
+    .footer-area .footer-socials,
+    .footer-area .copyright-area {
+        text-align: center;
+    }
+    .suitable-business-area .left-content .section-title .bg-text {
+        display: none;
+    }
+
+    .suitable-business-area {
+        padding-top: 60px;
+    }
+
+    .our-mission-area .left-conter .bg-text {
+        display: none;
+    }
+
+    .counter-area .bg-text {
+        display: none;
+    }
+
+    .minimal-video-area .bg-text {
+        display: none;
+    }
+
+    .subscribe-area .bg-text {
+        display: none;
+    }
+}
+
+/* Wide Mobile Layout: 375px. */
+
+@media only screen and (max-width: 414px) {
+    .our-angels-area .single-team-member .image-box img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-wrapper {
+    display: inline-block;
+    float: none;
+  }
+}

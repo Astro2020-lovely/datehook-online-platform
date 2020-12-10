@@ -1,0 +1,97 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 23/04/2018 07:18
+  	*/
+
+	@font-face {
+	    font-family: "Flaticon";
+	    src: url("../fonts/Flaticon.eot");
+	    src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family: "Flaticon";
+	        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    }
+	}
+
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	    font-family: Flaticon;
+	    font-size: 20px;
+	    font-style: normal;
+	    margin-left: 20px;
+	}
+
+	.flaticon-separator:before {
+	    content: "\f100";
+	}
+
+	.flaticon-smile:before {
+	    content: "\f101";
+	}
+
+	.flaticon-box:before {
+	    content: "\f102";
+	}
+
+	.flaticon-windows:before {
+	    content: "\f103";
+	}
+
+	.flaticon-play-button:before {
+	    content: "\f104";
+	}
+
+	.flaticon-trophy:before {
+	    content: "\f105";
+	}
+
+	.flaticon-idea:before {
+	    content: "\f106";
+	}
+
+	.flaticon-coffee-cup:before {
+	    content: "\f107";
+	}
+
+	.flaticon-bars:before {
+	    content: "\f108";
+	}
+
+	.flaticon-application-development:before {
+	    content: "\f109";
+	}
+
+	.flaticon-shopping-cart:before {
+	    content: "\f10a";
+	}
+
+	.flaticon-wedding-planning:before {
+	    content: "\f10b";
+	}
+
+	.flaticon-skyline:before {
+	    content: "\f10c";
+	}
+
+	.flaticon-support:before {
+	    content: "\f10d";
+	}
+
+	.flaticon-tabs:before {
+	    content: "\f10e";
+	}
+
+	.flaticon-nature:before {
+	    content: "\f10f";
+	}
+
+	.flaticon-settings:before {
+	    content: "\f110";
+	}
